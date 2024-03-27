@@ -1,0 +1,108 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #152646;
+}
+
+.topAvatar {
+  margin-left: 10%;
+}
+
+.userIconDiv {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.userIconDiv:hover {
+  background-color: lightgrey;
+}
+
+.topMenu {
+  width: 60%;
+  height: 100%;
+  background-color: #152646;
+  color: #b7e3fa;
+
+  > li {
+    height: 100%;
+
+    > span {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+
+.topLogo {
+  min-width: 40px;
+  color: #ceddf1;
+  font-size: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.contentMenu {
+  overflow: auto;
+  height: calc(1000vh - 90px);
+  position: fixed;
+  left: 0;
+  top: 150px;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 250px;
+  background-color: #152646;
+}
+
+.contentRight {
+  flex: 1;
+  width: calc(100vw - 300px);
+  margin-left: 250px;
+  margin-top: 150px;
+  background-color: white;
+}
+
+.realContent {
+  overflow-y: auto;
+  box-shadow: 0 -5px 40px grey;
+  background-color: #ebedf0;
+  color: #061121;
+  margin: 50px 30px 20px;
+  z-index: -10 !important;
+  font-size: 25px;
+}

@@ -1,0 +1,64 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../assets/images/loginBackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.content {
+  width: 35%;
+  border-radius: 60px;
+  min-height: 600px;
+  max-height: 700px;
+  height: 60%;
+  margin: auto;
+  z-index: 1;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+input {
+  width: 80%;
+  height: 100%;
+  border-radius: 15px;
+  opacity: 0.9;
+
+  background-color: rgb(255 255 255 / 20%);
+  border: 1px solid lightgrey;
+  color: white;
+}
+
+.inputDIV {
+  height: 11%;
+  width: 70%;
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+}
+
+input::placeholder {
+  color: #adadad;
+}
+
+.loginBtn {
+  width: 70%;
+  height: 13%;
+  background-image: linear-gradient(to top, #032b8d 0%, #6788d9 100%);
+  color: white;
+  font-size: 1.7rem;
+  border-radius: 15px;
+}

@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .drawer-label {
+        @apply text-lg;
+    }
+
+    .login-label {
+        @apply text-2xl text-white w-1/4;
+    }
+}
+
+.ant-modal-title {
+    @apply flex justify-center;
+    @apply text-2xl !important;
+}
+
+.ant-drawer-title {
+    @apply text-2xl !important;
+}
+
+.ant-table-thead > tr > th {
+    @apply text-lg;
+}
+
+.ant-table-tbody > tr > td {
+    @apply text-base;
+}
+
+.ant-menu-item {
+    @apply text-xl;
+}
+
+.ant-btn {
+    @apply text-sm;
+}
+
+.ant-btn-lg {
+    @apply text-base !important;
+}
+
+.ant-drawer-body .ant-divider {
+    @apply text-xl !important;
+}
+
+.info-label {
+    @apply text-xl;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-label-content {
+
+}
+
+.edit-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    @apply h-8
+}
+
+.edit-label-text {
+    min-width: 120px;
+
+}
+
+.edit-label-ForTea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    @apply h-8
+}
+
+.edit-label-text-ForTea {
+    min-width: 240px;
+}

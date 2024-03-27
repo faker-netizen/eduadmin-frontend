@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "author": "Snowflyt <gaoge011022@163.com>",
+  "scripts": {
+    "build": "max build",
+    "dev": "max dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "prepare": "husky install",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/pro-components": "^2.0.1",
+    "@umijs/max": "^4.0.47",
+    "antd": "^5.1.7",
+    "chroma-js": "^2.4.2",
+    "exceljs": "^4.3.0",
+    "html2canvas": "^1.4.1",
+    "konva": "^8.4.3",
+    "lodash": "^4.17.21",
+    "react-konva": "^18.2.5",
+    "use-immer": "^0.8.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^2.3.4",
+    "prettier-plugin-packagejson": "^2",
+    "tailwindcss": "^3",
+    "typescript": "^4.1.2"
+  }
+}
